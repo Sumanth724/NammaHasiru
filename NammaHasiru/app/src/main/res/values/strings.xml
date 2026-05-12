@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Hasiru</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Add Plant</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_stats">Stats</string>
+    <string name="label_species_name">Species Name</string>
+    <string name="btn_capture_photo">Capture Photo</string>
+    <string name="btn_get_location">Get Current Location</string>
+    <string name="btn_save_plant">Save Plant</string>
+    <string name="no_plants_yet">No plants yet! Add your first sapling. 🌱</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="splash_tagline">Empowering greener communities 🌿</string>
+</resources>

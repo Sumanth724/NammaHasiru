@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_50">#F1F8E9</color>
+    <color name="green_100">#DCEDC8</color>
+    <color name="green_200">#C5E1A5</color>
+    <color name="green_300">#AED581</color>
+    <color name="green_400">#9CCC65</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#2E7D32</color>
+    <color name="green_800">#1B5E20</color>
+    <color name="green_900">#1B4020</color>
+    <color name="earth_brown">#5D4037</color>
+    <color name="earth_amber">#FF8F00</color>
+    <color name="background_color">#F1F8E9</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="status_alive">#2E7D32</color>
+    <color name="status_dead">#C62828</color>
+    <color name="status_unknown">#F57F17</color>
+    <color name="bottom_nav_selected">#2E7D32</color>
+    <color name="bottom_nav_unselected">#9E9E9E</color>
+</resources>

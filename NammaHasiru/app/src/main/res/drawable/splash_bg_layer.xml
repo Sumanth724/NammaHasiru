@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Organic nature background with subtle leaf shapes -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#0A2E12"
+                android:centerColor="#1B5E20"
+                android:endColor="#2E7D32"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Top-right decorative circle blob -->
+    <item android:top="-120dp" android:right="-100dp">
+        <shape android:shape="oval">
+            <solid android:color="#1A4CAF50" />
+        </shape>
+    </item>
+
+    <!-- Bottom-left decorative blob -->
+    <item android:bottom="-140dp" android:left="-110dp">
+        <shape android:shape="oval">
+            <solid android:color="#1A81C784" />
+        </shape>
+    </item>
+</layer-list>

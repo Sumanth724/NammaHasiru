@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Professional hand holding a seedling icon for Namma-Hasiru -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M100,100m-85,0a85,85 0 1,0 170,0a85,85 0 1,0 -170,0" />
+
+    <!-- Inner circle background -->
+    <path
+        android:fillColor="#22FFFFFF"
+        android:pathData="M100,100m-70,0a70,70 0 1,0 140,0a70,70 0 1,0 -140,0" />
+
+    <!-- Hand (cupped/holding shape) -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M55,130 Q60,125 68,124 L78,123 Q82,110 88,100 Q92,93 100,90 Q108,93 112,100 Q118,110 122,123 L132,124 Q140,125 145,130 Q148,138 140,142 Q130,148 100,148 Q70,148 60,142 Q52,138 55,130 Z" />
+
+    <!-- Soil mound -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M78,126 Q100,118 122,126 Q118,134 100,136 Q82,134 78,126 Z" />
+
+    <!-- Main stem -->
+    <path
+        android:strokeColor="#388E3C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M100,126 L100,82" />
+
+    <!-- Large left leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,100 Q80,88 72,70 Q80,68 92,78 Q98,84 100,94 Z" />
+
+    <!-- Large right leaf -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M100,96 Q118,84 128,66 Q120,64 108,74 Q102,80 100,90 Z" />
+
+    <!-- Top center leaf -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M100,82 Q90,66 92,54 Q100,56 106,68 Q108,76 100,82 Z" />
+
+    <!-- Small sprout tip -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M100,64 Q96,56 98,50 Q102,52 102,60 Z" />
+
+    <!-- Leaf veins -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M100,94 Q86,82 74,72" />
+    <path
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M100,90 Q112,78 126,68" />
+
+    <!-- Sparkle dots -->
+    <path android:fillColor="#FFFFFF" android:pathData="M60,80m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M140,75m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M70,55m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#C8E6C9" android:pathData="M130,92m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>

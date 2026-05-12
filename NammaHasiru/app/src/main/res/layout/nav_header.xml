@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/gradient_green"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Spacer to push content down -->
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <!-- Avatar with ring border -->
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- White ring -->
+        <View
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/avatar_circle_bg"
+            android:alpha="0.25"/>
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/avatar_circle_bg"
+            android:contentDescription="User avatar"
+            android:padding="10dp"
+            android:src="@drawable/ic_app_logo"
+            android:clickable="true"
+            android:focusable="true" />
+    </FrameLayout>
+
+    <!-- Display name -->
+    <TextView
+        android:id="@+id/tvNavUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Namma Hasiru"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Username handle -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp">
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="#A5D6A7"
+            android:layout_marginEnd="6dp"/>
+
+        <TextView
+            android:id="@+id/tvNavUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@user"
+            android:textColor="#CCffffff"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

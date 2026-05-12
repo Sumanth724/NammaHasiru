@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base deep green -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0A2E1A"/>
+        </shape>
+    </item>
+    <!-- Diagonal gradient overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#1B5E20"
+                android:centerColor="#1A3D2B"
+                android:endColor="#0D2117"
+                android:angle="135"/>
+        </shape>
+    </item>
+</layer-list>
